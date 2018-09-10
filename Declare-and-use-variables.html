@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Declare-and-use-variables</title>
+</head>
+<body>
+<script>
+    document.writeln("Bài 1:"+"<br>");
+    let i = 10;
+    let f = 20.5;
+    let b = true;
+    let s = "Hà Nội";
+    document.writeln(+i+"<br>");
+    document.writeln(+f+"<br>");
+    document.writeln(b);
+    document.writeln("<br>");
+    document.writeln(s);
+    document.writeln("<br>");
+    document.writeln("Bài 2:");
+    let width = 5;
+    parseInt(width)
+    let height = 3;
+    parseInt(height);
+    let area = width*height;
+    document.writeln("Diện tích hình chữ nhật có chiều rộng: " + width + " và chiều cao " + height + " có diện tích là: " +area+"<br>");
+    document.writeln("Bài 3:");
+    let a = prompt("Nhập vào số a: ");
+    let b1 = prompt("Nhập vào số b: ");
+    if (a%b1==0){
+        alert(+ a +" là bội số của "+b1);
+    }else {
+        alert (+ a +" KHÔNG là bội số của "+b1);
+    }
+</script>
+</body>
+</html>
